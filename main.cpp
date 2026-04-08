@@ -4,7 +4,8 @@
 int main() {
     std::string s;
     while (std::cin >> s) {
-        std::cerr << s << std::endl;
+        std::cout << s << " ";
     }
-    return 1; // Cause Runtime Error to see stderr
+    std::cout << std::endl;
+    return 0;
 }
